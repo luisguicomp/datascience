@@ -1,0 +1,35 @@
+
+1 - Análise gráfica e percentil
+	# Função para remover possíveis outliers
+	def outliers_handling(df, feats, perc):
+	    df_aux = df
+	    for f in feats:
+	        df = df_aux
+	        quantile = df[f].quantile(perc)
+	        df_aux = df[df[f] < quantile]
+	    return df_aux
+
+2 - Z-score
+	z = x-u/o  => u = média e o = desvio
+	#treshold
+	threshold = 3
+	#list of outliers
+	outlier = []
+	#outlier detection
+	for i in data:
+	    z = (i-mean)/std
+	    if z > threshold:
+	        outlier.append(i) 
+	print(f'the outliers are: {outlier}')
+
+
+3 - Isolation Forest
+	#identifying outliers 
+	iso = IsolationForest()
+	y_outliers = iso.fit_predict(df)
+	#droping outliers rows
+	for i in range(len(y_outliers)):
+	    if y_outliers[i] == -1:
+	        df.drop(i, inplace = True)
+	#chechink new dataframe shape
+	df.shape
