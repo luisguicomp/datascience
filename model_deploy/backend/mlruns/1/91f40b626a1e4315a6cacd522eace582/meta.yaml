@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Luis%20Guilherme/Desktop/Projetos/mlflow_fastapi/backend/mlruns/1/91f40b626a1e4315a6cacd522eace582/artifacts
+end_time: 1655140690048
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 91f40b626a1e4315a6cacd522eace582
+run_uuid: 91f40b626a1e4315a6cacd522eace582
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1655140687690
+status: 3
+tags: []
+user_id: Luis Guilherme

@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Luis%20Guilherme/Desktop/Projetos/mlflow_fastapi/backend/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Diabetes_Classification
