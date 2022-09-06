@@ -1,0 +1,21 @@
+
+
+Modelagem de otimização de rotas (fretes)
+
+- N Cidades com distâncias
+- M Postos com os preços de combustível
+- Cidades de carga e descarga
+- Cidade de origem e destino
+
+Características do veículo:
+- Início com tanque cheio? SIM
+- Capacidade do tanque
+- Consumo médio
+
+Talvez
+- Valor do frete
+- data limite de entrega
+
+Objetivo:
+- Minimizar consumo
+- Maximizar lucro
